@@ -1,0 +1,5 @@
+
+def questionsPrompt(pros,cons):
+    prompt1 = f"Given the following list of pros and cons for a decision-making project, please generate insightful questions that encourage critical thinking and explore the interactions between different aspects of the project. Ask questions that address multiple points in a logical and interconnected manner, helping users gain a deeper understanding of the project's benefits and limitations: \nPros:\n\n{pros}\nCons:\n\n{cons}\nYour questions should prompt users to think about how each aspect of the project contributes to its overall effectiveness, considering both its advantages and potential drawbacks. Encourage users to explore the connections between different points and the implications of these connections on the project's utility and feasibility."
+
+    return prompt1
